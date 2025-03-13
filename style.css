@@ -1,0 +1,255 @@
+head {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+}
+
+footer{
+    min-height: 50px;
+
+    background: linear-gradient(0deg, rgb(33, 37, 41) 0%, rgba(255, 255, 255, 0) 100%);
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+#nav_bar {
+    margin: 0px;
+    display: flex;
+    width: 100%;
+    box-shadow: 1px 1px 10px rgb(10, 72, 105);
+    position: fixed;
+}
+
+#link_div+div:nth-of-type() {
+    border-right: 3px solid white;
+}
+
+.nav{
+    height: 100%;
+    text-align: center;
+    align-content: center;
+    margin: 0px;
+    padding: 7px;
+    color: white;
+    border: transparent;
+    text-shadow: 1px 1px 2px rgb(255, 255, 255);
+}
+
+.nav_links {
+    height: 100%;
+    justify-content: space-around;
+    text-align: center;
+    align-content: center;
+    margin: 0px;
+    padding: 7px;
+    color: white;
+    border: transparent;
+    text-shadow: 1px 1px 2px rgb(255, 255, 255);
+}
+
+.nav_links:hover {
+    background-color: white;
+    text-shadow: 1px 1px 10px rgb(10, 72, 105);
+    color: black;
+}
+
+.divblock {
+    width: 100%;
+    height: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    align-items: center;
+    padding: 50px 0 0 0;
+    margin: 0px 10px;
+}
+
+#profile_img {
+    width: auto;
+    height: auto;
+    border-radius: 50%;
+    margin: 0px;
+    padding: 0px;
+    min-height: 100px;
+    min-width: 100px;
+}
+
+.maintxt+p:nth-of-type(1) {
+    font-size: 1.3em;
+    text-align: justify;
+}
+
+.strong1 {
+    color: rgb(10, 72, 105);
+    font-family: 'Times New Roman', Times, serif;
+    margin: 5px;
+}
+
+
+
+#imgabout {
+    width: 100%;
+    height: fit-content;
+    align-items: center;
+    padding: 5px;
+    object-fit: contain;
+}
+
+#about p:nth-of-type(1) {
+    font-size: 1.3em;
+    text-align: justify;
+    align-items: center;
+}
+
+#about div:nth-of-type(1) {
+    align-self: center;
+}
+
+hr {
+    border: 1px solid rgb(0, 31, 134);
+    width: 100%;
+    margin: 20px;
+    box-shadow: 5px 5px 10px rgb(12, 67, 97);
+    justify-self: center;
+}
+
+#whoiam {
+    font-size: 2em;
+    font-family: big-caslon, sans-serif;
+    color: rgb(200, 0, 53);
+}
+
+.maintxt {
+    text-shadow: 1px 1px 2px rgb(20, 45, 187);
+    margin: 10px;
+    padding: 0px;
+}
+
+.badgecolor {
+    background-color: rgb(10, 72, 105);
+    font-family: 'Times New Roman', Times, serif;;
+    font-size: 0.7em;
+}
+
+.projectdiv{
+    margin: 30px;
+    padding: 30px;
+    border: transparent;
+    color: white;
+    border-style: groove;
+    border-radius: 10px;
+    background-color: #2C3930;
+    box-shadow: 0px 0px 12px #2c2b30;
+    text-align: justify;
+    font-size: 1.01em;
+}
+
+.imgtech{
+    width: 10%;
+    height: "auto";
+    object-fit: contain;
+    margin: 2px;
+}
+
+.projectdiv+h4{
+    margin-bottom: 5px;
+}
+.projectgitlink{
+    color: white;
+    font-size: 1.2em;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 1px 1px 2px rgb(20, 45, 187);
+    background-color: rgb(194, 84, 84);
+    display: block;
+    margin-top: 15px;
+}
+.divexperience{
+    background-color: #F3A43F;
+    color: #26244B ;
+    border-radius: 15px;
+    padding: 20px;
+    font-size: 1.1em;
+    box-shadow: 0px 0px 20px #76591f;
+}
+.divexperience ul{
+    text-align: justify;
+}
+.iplabel{
+    font-size: 1.1em;
+    color: #26244B;
+}
+.ipfield{
+    font-size: 1.1em;
+    border: 1px solid #207db0;
+}
+
+.divconnect{
+    margin: 20px;
+    border-radius: 15px;
+    padding: 20px;
+    font-size: 1.1em;
+    box-shadow: 0px 0px 20px #4c4b4a;
+}
+#btnconnect{
+    background-color: #26244B;
+    color: white;
+    width: 100%;
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 1px 1px 2px rgb(20, 45, 187);
+    display: block;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #76591f;
+}
+
+.link-icon{
+    color: #26244B;
+    font-size: 1.5em;
+    margin: 10px;
+    padding: 10px;
+}
+
+#linkicons{
+    font-size: 1.1em;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+}
+#nav_name{
+   min-width: 55%;
+}
+
+
+
+
+/* media query starts for tablet */
+@media screen and (max-width:1200px){
+    
+}
+
+@media screen and (max-width:750px) {
+    .nav_links{
+        display: none;
+    }
+
+    #main{
+        display: block;
+        min-width: 100%;
+        margin: 0px;
+    }
+
+    .divblock{
+        display: block;
+    }
+    body{
+        display: block;
+    }
+
+
+}
