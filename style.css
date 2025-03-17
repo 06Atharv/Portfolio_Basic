@@ -8,9 +8,8 @@ body {
     background-color: rgb(255, 255, 255);
 }
 
-footer{
+footer {
     min-height: 50px;
-
     background: linear-gradient(0deg, rgb(33, 37, 41) 0%, rgba(255, 255, 255, 0) 100%);
     text-align: center;
     padding: 0px;
@@ -30,7 +29,7 @@ footer{
     border-right: 3px solid white;
 }
 
-.nav{
+.nav {
     height: 100%;
     text-align: center;
     align-content: center;
@@ -66,7 +65,7 @@ footer{
     margin-right: 0px;
     align-items: center;
     padding: 50px 0 0 0;
-    margin: 0px 10px;
+    margin: 0px 10px 0px 5px;
 }
 
 #profile_img {
@@ -132,11 +131,12 @@ hr {
 
 .badgecolor {
     background-color: rgb(10, 72, 105);
-    font-family: 'Times New Roman', Times, serif;;
+    font-family: 'Times New Roman', Times, serif;
+    ;
     font-size: 0.7em;
 }
 
-.projectdiv{
+.projectdiv {
     margin: 30px;
     padding: 30px;
     border: transparent;
@@ -149,17 +149,18 @@ hr {
     font-size: 1.01em;
 }
 
-.imgtech{
+.imgtech {
     width: 10%;
     height: "auto";
     object-fit: contain;
     margin: 2px;
 }
 
-.projectdiv+h4{
+.projectdiv+h4 {
     margin-bottom: 5px;
 }
-.projectgitlink{
+
+.projectgitlink {
     color: white;
     font-size: 1.2em;
     font-family: 'Times New Roman', Times, serif;
@@ -168,38 +169,43 @@ hr {
     display: block;
     margin-top: 15px;
 }
-.divexperience{
-    background-color: #F3A43F;
-    color: #26244B ;
+
+.divexperience {
+    background-color: #ffffff;
+    color: #26244B;
     border-radius: 15px;
     padding: 20px;
     font-size: 1.1em;
-    box-shadow: 0px 0px 20px #76591f;
+    box-shadow: 0px 0px 20px #5c574f;
 }
-.divexperience ul{
+
+.divexperience ul {
     text-align: justify;
 }
-.iplabel{
+
+.iplabel {
     font-size: 1.1em;
     color: #26244B;
 }
-.ipfield{
+
+.ipfield {
     font-size: 1.1em;
     border: 1px solid #207db0;
 }
 
-.divconnect{
+.divconnect {
     margin: 20px;
     border-radius: 15px;
     padding: 20px;
     font-size: 1.1em;
     box-shadow: 0px 0px 20px #4c4b4a;
 }
-#btnconnect{
+
+#btnconnect {
     background-color: #26244B;
     color: white;
     width: 100%;
-    font-size: 1.5em;
+    font-size: 0.8em;
     font-family: 'Times New Roman', Times, serif;
     text-shadow: 1px 1px 2px rgb(20, 45, 187);
     display: block;
@@ -209,47 +215,101 @@ hr {
     box-shadow: 0px 0px 10px #76591f;
 }
 
-.link-icon{
+.link-icon {
     color: #26244B;
     font-size: 1.5em;
     margin: 10px;
     padding: 10px;
 }
 
-#linkicons{
+#linkicons {
     font-size: 1.1em;
     font-family: 'Times New Roman', Times, serif;
     display: flex;
 }
-#nav_name{
-   min-width: 55%;
+
+#nav_name {
+    min-width: 55%;
 }
 
 
 
 
 /* media query starts for tablet */
-@media screen and (max-width:1200px){
-    
-}
+@media screen and (max-width:1200px) {}
 
-@media screen and (max-width:750px) {
-    .nav_links{
-        display: none;
+@media screen and (max-width:1000px) {
+
+
+    .nav_links {
+        padding: 2px;
+        margin: 0px 2px;
     }
 
-    #main{
+    #main {
         display: block;
         min-width: 100%;
         margin: 0px;
+        padding: 20px;
+        display: block;
+        justify-items: center;
+
     }
 
-    .divblock{
+    #profile_img {
+
+        justify-self: center;
+        display: flex;
+    }
+
+    #imgabout {
+        height: 40vh;
+    }
+
+
+    .divblock {
+        display: block;
+        justify-items: center;
+    }
+
+    body {
         display: block;
     }
-    body{
+
+    .divexperience {
+        width: 100%;
+    }
+
+    #imgexperience {
+        align-content: center;
+        width: 100%;
         display: block;
     }
 
+    img[alt="imgexp"] {
+        align-self: center;
+        justify-self: center;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+    }
+}
 
+@media screen and (max-width:770px) {
+    .nav_links {
+        display: none;
+    }
+
+    #imgexperience{
+        width: 100%;
+        align-content: center;
+        justify-items: center;
+        padding: 10px;
+    }
+
+    img[alt = "imgexp"]{
+        object-fit:contain;
+        width: 100%;
+        align-self: center;
+    }
 }
